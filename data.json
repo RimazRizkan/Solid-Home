@@ -1,0 +1,115 @@
+{
+	"properties": [
+        {
+            "id":"prop1",
+			"type":"House",
+            "bedrooms":3,
+			"price":650000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+			"location":"Petts Wood Road, Petts Wood, Orpington",
+			"picture":"images/prop1pic1small.jpg",
+			"url":"properties/prop1.html",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop2",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":299995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+			"location":"Crofton Road Orpington BR6",
+			"picture":"images/prop2pic1small.jpg",
+			"url":"properties/prop2.html",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop3",
+			"type":"Penthouse",
+            "bedrooms":3,
+			"price":450000,
+			"tenure":"Freehold",
+			"description":"Exceptional open plan three bedroom single level penthouse apartment located on the third floor with a dedicated parking. Large light filled open plan living/dining room with a large recessed bespoke kitchen including a range of integrated appliances and breakfast bar. Sliding doors lead out onto a private balcony, a perfect space for outdoor dining or socialising with friends and family. Master bedroom complete with en-suite while the generous second and third double bedrooms are complimented by the luxury family bathroom. This property also includes a spacious utility room, ample storage space off the main hall and dedicated parking.",
+			"location":"Wilmslow Road, Didsbury, Manchester, M20",
+			"picture":"images/prop3pic1small.jpg",
+			"url":"properties/prop3.html",
+            "added": {
+                "month":"April",
+                "day":04,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop4",
+			"type":"House",
+            "bedrooms":4,
+			"price":700000,
+			"tenure":"Leasehold",
+			"description":"A fantastic four bedroom home, ideal for a growing family. The generous hallway leads into the home office and a spacious lounge with bay window.Along the back of the property is an open plan kitchen/dining room which extends to a family area with French doors leading to the garden. A utility room, useful store cupboard and downstairs cloakroom completes the ground floor accommodation, Upstairs, there are four bedrooms, three of which are double, with the master offering a fitted space slide wardrobe and ensuite facilities. A family bathroom is also located on this floor complete with bath and separate shower This lovely plot, situated on the edge of the development, benefits from an external garage and driveway parking for two cars. ",
+			"location":"Redbridge Lane, Southampton, SO16",
+			"picture":"images/prop4pic1small.jpg",
+			"url":"properties/prop4.html",
+            "added": {
+                "month":"July",
+                "day":21,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop5",
+			"type":"Apartment",
+            "bedrooms":2,
+			"price":580000,
+			"tenure":"Freehold",
+			"description":"The Residence at Kirkstall Road is a brand new development brought to you by KMRE Group and due to be completed in spring 2021. The development offers a wide range of apartment designs that will suit most tastes, all covered by a 10 year build warranty and the ability to personalise the apartments including purchasing an onsite parking space. Housing the consumer unit, heat exchanger (fed from the communal hot water system) and automatic washer dryer. Laminate flooring. Enjoying dual aspect views from both a juliet balcony and a private balcony. Electric panel heaters. Laminate flooring. Delightful outlook over the courtyard. Electric panel radiator. Fitted carpet.",
+			"location":"The Residence at Kirkstall Road, Leeds",
+			"picture":"images/prop5pic1small.jpg",
+			"url":"properties/prop5.html",
+            "added": {
+                "month":"January",
+                "day":28,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop6",
+			"type":"Penthouse",
+            "bedrooms":3,
+			"price":625000,
+			"tenure":"Freehold",
+			"description":"Marylebone Square is a rare opportunity to be part of the provenance of aristocratic estates in Central London. A contemporary take on a classic London mansion, it is an intuitively designed building that slots into the urban fabric of Marylebone. The residences are refined, elegant and intuitively designed; each apartment is generously spacious yet warmly intimate. Created by developers, Concord London and Simon Bowden Architects, all residences benefit from floor-to-ceiling windows and glass sliding doors giving each space a bright and capacious feel. Additional features include 24 hour concierge service. Marylebone Square has an estimated completion of 2021 and complies with a 10 year build warranty by NHBC.",
+			"location":"Marylebone Square, Moxon St, W1U",
+			"picture":"images/prop6pic1small.jpg",
+			"url":"properties/prop6.html",
+            "added": {
+                "month":"August",
+                "day":07,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop7",
+			"type":"House",
+            "bedrooms":2,
+			"price":375000,
+			"tenure":"Leasehold",
+			"description":"Tucked away within a discreet cul-de-sac in the hugely popular 'Hygge Park', this two bedroom semi-detached home enjoys all the benefits of a quiet location while enjoying excellent access to the cities of Bristol and Bath. The homes have been created to enhance social, open plan living with bright and airy rooms throughout. The ground floor is dominated by a spacious Kitchen/Dining/Living Room that runs the full length of the home and boasts a luxury fitted 'Stolz' kitchen with range of integrated 'Bosch' appliances. To the first floor, two double bedrooms and found (master offering built in wardrobe), in addition to a high quality, four piece suite bathroom.",
+			"location":"Bath Road, Keynsham, Bristol",
+			"picture":"images/prop7pic1small.jpg",
+			"url":"properties/prop7.html",
+            "added": {
+                "month":"October",
+                "day":17,
+                "year":2018
+            }
+        }
+]}

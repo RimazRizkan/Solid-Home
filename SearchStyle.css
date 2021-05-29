@@ -1,0 +1,204 @@
+body { /* Providing the relevant effects to the body */
+    background: linear-gradient(90deg, rgba(170,169,169,1) 21%, rgba(247,246,246,1) 100%);
+    margin: 0;
+    padding: 0;
+    line-height: 1.8; /* line-height is the space between lines */
+}
+
+.customBackground { /* Providing a background color to search page */
+  background-color: burlywood;
+}
+
+/* Providing a background colour to the ui slider for the id named as slider-range */
+#slider-range .ui-slider-range { 
+	background: #FF006C; 
+}
+
+/* Providing relevant CSS for the viewFav and clearFave id */
+#viewFav, #clearFav
+{
+   padding: 5px 25px 5px 25px ;
+   font-size: 1em ;
+}
+
+/* Providing CSS for the id named as slider-range */
+#slider-range{
+    height: 1em;
+    width: 40%;
+    padding-left: 5px;
+}
+
+/* The navbar class will have the specific CSS */
+.navbar { 
+    margin: 0;
+    background:  #333; /* Making the background as transparent */
+}
+  
+/* The ul tag which is inside the nav tag will have the specific CSS */
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* The li tag which is inside the nav tag will have the specific CSS */
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1em;
+}
+
+/* The anchor tag which is inside the nav tag will have the specific CSS */
+nav > ul > li > a {
+    color: white;
+    background-image: linear-gradient(270deg, #f56666 0%, #fb364e 50%, #f91313 100%);
+    display: block;
+    line-height: 1.2em;
+    padding: 1.0em 3.8em; /* top and bottom of 1.0em and left and right of 3.8em */
+    text-decoration: none;
+}
+
+/* The navbar class will have a hover effect */
+.navbar a:hover { /* pseudo element used for navbar class*/
+    background-image: linear-gradient(270deg, #FE0000 0%, #FE0000 50%, #FE0000 100%);
+    color: black;
+}
+
+/* The h1 tag which will have the specific CSS */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+/* The h5 tag will have the specific CSS */
+h5 {
+    font-size: 1rem;
+    font-weight: 200;
+}
+  
+
+/* The img tag which will have the specific CSS */
+.home-image {
+    width: 100%;
+    height: 30em;
+}
+
+/* The container class will have the specific CSS */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+/* The flex class will have the specific CSS */
+.flex {
+    display: flex;
+    justify-content: space-between; /* Justifying the content as space between */
+}
+
+/* The footer tag will have the specific CSS */
+footer {
+    background: #333;
+    padding: 1rem 0;
+    color: #777;
+}
+  
+/* The flex class which is inside the footer tag will have the specific CSS */
+footer .flex {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #777;
+}
+  
+/* The h5 tag which is inside the footer tag will have the specific CSS */
+footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+/* The about class which is inside footer tag will have the specific CSS */
+footer .about {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* The p tag which is inside about class will have a width of 75% */
+footer .about p {
+    width: 50%;
+    color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* starting of media queries */
+/* Using of a screen size which has a width of 800px */
+@media (max-width: 800px) {
+    h1 { /* Reducing the h1 font size from 2.5rem to 2rem if screen has a width of 800px */
+      font-size: 2rem;
+    }
+  
+    h2 { /* Reducing the h2 font size from 2rem to 1.5rem if screen has a width of 800px */
+      font-size: 1.5rem;
+    }
+  
+    h3 { /* Reducing the h3 font size from 1.5rem to 1.2rem if screen has a width of 800px */
+      font-size: 1.2rem;
+    }
+  
+    h5 { /* Reducing the h5 font size from 1rem to 0.8rem if screen has a width of 800px */
+        font-size: 0.8rem;
+    }
+  
+    p { /* Reducing the paragraph font size to 2rem if screen has a width of 800px */
+      font-size: 0.8rem;
+    }
+  
+    .container { /* The container class will have a maximum width of 600px */
+      max-width: 600px;
+    }
+  
+    /* The heading of the ui tabs will have a font size of 1rem */
+    #tabs .ui-widget-header {
+      font-size: 1rem;
+    }
+    
+    footer { /* The footer will have a padding of 4rem on top and bottom*/
+      padding: 4rem 0;
+    }
+  
+    /* The flex class of footer tag will have a flex wrap */
+    footer .flex {
+      flex-wrap: wrap;
+    }
+  
+    /* The flex class greater than the div tag in footer tag will have a width of 100% */
+    footer .flex>div {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    /* The first div child in the flex class will have a margin top of 0 */
+    footer .flex>div:first-child {
+      margin-top: 0;
+    }
+  
+    /* The h5 tag inside footer tag will have a font size of 1rem and font weight of 800 ; */
+    footer h5 { 
+      font-size: 1rem;
+      font-weight: 800;
+    }
+  
+    /* The p tag which is inside about class will have a font size of 1rem and width of 75% */
+    footer .about p {
+      font-size: 1rem;
+      width: 75%;
+    }
+    
+}
+  
+/* end of media queries */
