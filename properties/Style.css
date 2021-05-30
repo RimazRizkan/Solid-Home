@@ -1,0 +1,308 @@
+body { /* Providing the CSS for every contents which is included in the body tag */
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.8; /* line-height is the space between lines */
+  background-color: bisque;
+}
+
+/* The navbar class will have the specific CSS */
+.navbar { 
+  margin: 0;
+  background:  #333; /* Making the background as transparent */
+}
+
+/* The ul tag which is inside the nav tag will have the specific CSS */
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* The li tag which is inside the nav tag will have the specific CSS */
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+/* The anchor tag which is inside the nav tag will have the specific CSS */
+nav > ul > li > a {
+  color: white;
+  background-image: linear-gradient(270deg, #f56666 0%, #fb364e 50%, #f91313 100%);
+  display: block;
+  line-height: 1.2em;
+  padding: 1.0em 3.8em; /* top and bottom of 1.0em and left and right of 3.8em */
+  text-decoration: none;
+}
+
+/* The navbar class will have a hover effect */
+.navbar a:hover { /* pseudo element used for navbar class*/
+  background-image: linear-gradient(270deg, #FE0000 0%, #FE0000 50%, #FE0000 100%);
+  color: black;
+}
+
+/* The id named as main-property will have the specific CSS */
+#main-property {
+  margin-top: 5rem;
+}
+
+/* The imgBox class will have the specific CSS */
+.imgBox {
+	width: 40%;
+	margin: 50px auto 20px;
+
+}
+
+/* The img tag which is inside the imgBox class will have the specific CSS */
+.imgBox img{
+	width: 100%; /* Having width of 100% */
+	border: 4px solid #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+}
+
+/* The class called thumb which is inside the ul tag will have the specific CSS */
+ul.thumb {
+	margin: 0 auto;
+	padding: 0;
+	display: flex; /* Displaying as flex */
+	align-items: center; /* Aligning all the items to center */
+	justify-content: center; /* Justifying the content to center */
+}
+
+/* The li tag which is inside the unordered list tag containing class called thumb will have the specific CSS */
+ul.thumb li {
+	list-style: none;
+	margin: 0 10px; /* Having a 10px margin on left and right */
+}
+
+/* The img tag which is inside the unordered list tag containing class called thumb will have the specific CSS */
+ul.thumb li img {
+	border: 4px solid #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,.5);
+}
+
+/* The container class will have the specific CSS */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* The flex class will have the specific CSS */
+.flex {
+  display: flex;
+  justify-content: space-between; /* Justifying the content as space between */
+}
+
+/* The h1 tag will have the specific CSS */
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 8px red;
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: white;
+}
+
+/* The h2 tag will have the specific CSS */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+
+/* The h3 tag will have the specific CSS */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-bottom: 2px solid black;
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  color: black;
+  font-family: cursive; /* Using cursive as the font family */
+}
+
+/* The h5 tag will have the specific CSS */
+h5 {
+  font-size: 1rem;
+  font-weight: 200;
+
+}
+
+/* The paragraph tag will have the specific CSS */
+p {
+  margin: 0 0 1rem;
+}
+
+/* The section tag will have the specific CSS */
+section {
+	margin-top: 1em;
+	margin-bottom: 1rem;
+}
+
+/* The flex class which is inside the id named as propertyDetails will have the specific CSS */
+#propertyDetails .flex {
+  margin-bottom: 2rem;
+  flex-wrap: wrap; /* Having the flex wrap as wrap */
+  justify-content: space-between; /* Justifying the content as space between */
+}
+
+/* The flex class which is greater than the div where all are in id named as propertyDetails tag will have the specific CSS */
+#propertyDetails .flex>div {
+  flex: 0 0 30%;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+/* The flex class which is inside the id named as constructionDetails will have the specific CSS */
+#constructionDetails .flex {
+  margin-bottom: 2rem;
+  flex-wrap: wrap; /* Having the flex wrap as wrap */
+  justify-content: space-between; /* Justifying the content as space between */
+}
+
+/* The flex class which is greater than the div where all are in id named as constructionDetails tag will have the specific CSS */
+#constructionDetails .flex>div {
+  flex: 0 0 30%;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+/* The heading of the id tabs will have the specific CSS */
+#tabs .ui-widget-header {  
+  background: linear-gradient(90deg, rgba(27,21,162,1) 0%, rgba(0,0,0,1) 0%, rgba(107,107,107,1) 100%);            border: 1px solid #b9cd6d;  
+  border: 4px solid rgb(255, 201, 134); 
+  font-weight: bold;  
+  font-size: 1.4rem; /* Font size of the tab headings as 1.4rem */
+}
+
+/* id called tabs will have the specific CSS */
+#tabs {
+  margin-top: 8em;
+  margin-bottom: 4em;
+}
+
+/* The img tag will have the specific CSS */
+img {
+  display: block; /* displaying as block */
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* The googlemap class will have a width of 100% */
+.googlemap {
+  width: 100%;
+}
+
+/* The footer tag will have the specific CSS */
+footer {
+  background: #333;
+  padding: 1rem 0;
+  color: #777;
+}
+
+/* The flex class which is inside the footer tag will have the specific CSS */
+footer .flex {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #777;
+}
+
+/* The h5 tag which is inside the footer tag will have the specific CSS */
+footer h5 {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+/* The about class which is inside footer tag will have the specific CSS */
+footer .about {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/* The p tag which is inside about class will have a width of 75% */
+footer .about p {
+  width: 75%;
+  color: bisque;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+/* starting of media queries */
+/* Using of a screen size which has a width of 800px */
+@media (max-width: 800px) {
+  h1 { /* Reducing the h1 font size from 2.5rem to 2rem if screen has a width of 800px */
+    font-size: 2rem;
+  }
+
+  h2 { /* Reducing the h2 font size from 2rem to 1.5rem if screen has a width of 800px */
+    font-size: 1.5rem;
+  }
+
+  h3 { /* Reducing the h3 font size from 1.5rem to 1.2rem if screen has a width of 800px */
+    font-size: 1.2rem;
+  }
+
+  h5 { /* Reducing the h5 font size from 1rem to 0.8rem if screen has a width of 800px */
+	  font-size: 0.8rem;
+  }
+
+  p { /* Reducing the paragraph font size to 2rem if screen has a width of 800px */
+    font-size: 0.8rem;
+  }
+
+  .container { /* The container class will have a maximum width of 600px */
+    max-width: 600px;
+  }
+
+  /* The heading of the ui tabs will have a font size of 1rem */
+  #tabs .ui-widget-header {
+    font-size: 1rem;
+  }
+  
+  footer { /* The footer will have a padding of 4rem on top and bottom*/
+    padding: 4rem 0;
+  }
+
+  /* The flex class of footer tag will have a flex wrap */
+  footer .flex {
+    flex-wrap: wrap;
+  }
+
+  /* The flex class greater than the div tag in footer tag will have a width of 100% */
+  footer .flex>div {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  /* The first div child in the flex class will have a margin top of 0 */
+  footer .flex>div:first-child {
+    margin-top: 0;
+  }
+
+  /* The h5 tag inside footer tag will have a font size of 1rem and font weight of 800 ; */
+  footer h5 { 
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+  /* The p tag which is inside about class will have a font size of 1rem and width of 75% */
+  footer .about p {
+    font-size: 1rem;
+    width: 75%;
+  }
+  
+}
+
+/* end of media queries */

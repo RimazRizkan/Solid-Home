@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Property 3</title> <!-- Title of the page --> 
+  <script src = "https://code.jquery.com/jquery-3.5.1.js"></script>
+  <link href = "https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css"
+    rel = "stylesheet"> <!-- Using of jquery ui lightness theme -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <!-- Using of external javascript named as SearchPageUI.js -->
+  <script type="text/javascript" src="../SearchPageUI.js"></script>
+  <!-- Using of external CSS named as Style.css -->
+  <link href="Style.css" type="text/css" rel="Stylesheet" />
+
+</head>
+
+<body>
+  
+  <header>
+    <nav>
+      <ul class = "navbar"> <!-- ul tag with an id named as navbar -->
+        <!-- Creating an about page -->
+        <li><a href = "extras/about.html"><strong>About</strong></a></li> 
+        <h1> S O L I D . H O M E </h1>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- Creating a section with main-property as the id -->
+  <section id="main-property">
+    <!-- Image Thumbnail Gallery -->
+    <div class = "imgBox"> <!-- Creating a imgBox class to store the main image -->
+      <img src = "images/prop3pic1.jpg">
+    </div>
+  
+    <!-- Displaying the images in an unordered list tag  with a class called thumb-->
+    <ul class = "thumb">
+      <!-- Displaying the thumbnail images of the property -->
+      <li> <a href = "images/prop3pic1.jpg" target = "imgBox"><img src = "images/prop3pic1small.jpg"> </a> </li>
+      <li> <a href = "images/prop3pic2.jpg" target = "imgBox"><img src = "images/prop3pic2small.jpg"> </a> </li>
+      <li> <a href = "images/prop3pic3.jpg" target = "imgBox"><img src = "images/prop3pic3small.jpg"> </a> </li>
+      <li> <a href = "images/prop3pic4.jpg" target = "imgBox"><img src = "images/prop3pic4small.jpg"> </a> </li>
+      <li> <a href = "images/prop3pic5.jpg" target = "imgBox"><img src = "images/prop3pic5small.jpg"> </a> </li>
+      <li> <a href = "images/prop3pic6.jpg" target = "imgBox"><img src = "images/prop3pic6small.jpg"> </a> </li>
+      <li> <a href = "images/prop3pic7.jpg" target = "imgBox"><img src = "images/prop3pic7small.jpg"> </a> </li>
+    </ul>
+  </section>
+
+  <!-- Creating of jquery ui tabs -->
+  <div id="tabs">
+    <!-- Displaying the tabs with their specific id -->
+    <ul>
+      <li><a href="#tabs-1">Property Description</a></li>
+      <li><a href="#tabs-2">Property Details</a></li>
+      <li><a href="#tabs-3">Construction Details</a></li>
+      <li><a href="#tabs-4">Floor Plan</a></li>
+      <li><a href="#tabs-5">Location</a></li>
+    </ul>
+
+    <!-- Tab for property description -->
+    <div id="tabs-1">
+      <section id="property-description"> <!-- Creating a new section to store property description -->
+        <div class="container">
+          <div class="description">
+            <h3>Property Description</h3>
+            <p>
+              Exceptional open plan three bedroom single level penthouse apartment located on 
+              the third floor with a dedicated parking. Large light filled open plan living/dining 
+              room with a large recessed bespoke kitchen including a range of integrated appliances 
+              and breakfast bar. Sliding doors lead out onto a private balcony, a perfect space for 
+              outdoor dining or socialising with friends and family. Master bedroom complete with 
+              en-suite while the generous second and third double bedrooms are complimented by the 
+              luxury family bathroom. This property also includes a spacious utility room, ample 
+              storage space off the main hall and dedicated parking.
+            </p>
+            <p><strong> Price : £ 450000 <br>
+              location : Wilmslow Road, Didsbury, Manchester, M20 </strong></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Tab for property details -->
+    <div id="tabs-2">
+      <section id="propertyDetails"> <!-- Creating a new section to store property details -->
+        <div class="container"> 
+          <h3>Property Details</h3>
+          <div class="flex"> <!-- Providing the property details using a class called flex -->
+            <div>
+              <strong>Bedrooms and bathrooms</strong>
+              <ul>
+                <li>Bedrooms: 3</li>
+                <li>Bathrooms: 2</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>Appliances Provided</strong>
+              <ul>
+                <li>Microwave</li>
+                <li>Trash Compactors</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>Additional Features</strong>
+              <ul>
+                <li>Storm windows</li>
+                <li>Wet bar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>   
+    </div>
+      
+    <!-- Tab for construction details -->
+    <div id="tabs-3">
+      <section id="constructionDetails"> <!-- Creating a new section to store construction details -->
+        <div class="container">
+          <h3>Construction Details</h3>
+          <div class="flex"> <!-- Providing the construction details using a class called flex -->
+            <div>
+              <strong>Property Type</strong>
+              <ul>
+                <li>Penthouse</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>Condition</strong>
+              <ul>
+                <li>Used</li>
+              </ul>
+            </div>
+
+            <div>
+              <strong>Built Year</strong>
+              <ul>
+                <li>2010</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Tab for floor plan -->
+    <div id="tabs-4">
+      <section id="floorplan"> <!-- Creating a new section to store floor plan image -->
+        <div class="container">
+          <div class="plan">
+          <h3> Floor Plan </h3>
+            <img src="images/prop3Plan.jpeg"> <!-- Image of the floor plan --> 
+          </div>
+        </div>
+      </section>
+    </div>
+      
+    <div id="tabs-5">
+      <!-- Map to identify the location easily -->
+      <section id="map"> <!-- Creating a new section with map as the id -->
+        <div class="locationmap"> <!-- Creating a new div with locationmap as the class -->
+          <h2> Wilmslow Road, Didsbury, Manchester, M20 </h2>
+            <!-- Code to display the map -->
+            <iframe class="googlemap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.9007197261853!2d-2.2335993839423587!3d53.41660167714732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb25e4722019b%3A0x45d016f069cb69d5!2sWilmslow%20Road%20Didsbury%2C%20Didsbury%2C%20Manchester%20M20%206WF%2C%20UK!5e0!3m2!1sen!2slk!4v1609139628895!5m2!1sen!2slk" 
+            width="600em" height="400em" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <!-- Creating Add favourites button and Remove favourites button -->  
+  <p id="prop3"> 
+    <button id="btn1" class="addFavourites">Add To Favorites</button> <!-- Add to favourites button -->
+    <button id="btn2" class="removeFavourites">Remove from Favorites</button> <!-- Remove from favourites button -->
+  </p>
+      
+      
+
+  <!-- Footer to describe about the website -->
+  <footer>
+    <div class="flex container"> <!-- Creating a div tag with both flex and container as the class -->
+      <div class="about">
+        <h5>S O L I D . H O M E</h5>
+        <p>Our aim is to empower the best selling properties around the world. Property search platform 
+          makes easy for home hunters to find their ‘happy’. Our strategy is to focus on growth with property 
+          advertising market through property advertisers</p>
+      </div>
+    </div>
+  </footer>
+    
+    
+  <!-- propertyScript as an external javascript for making thumbnails -->
+  <script type="text/javascript" src="propertyScript.js"></script>
+
+
+  <!-- Javascript for adding jquery ui for buttons -->
+  <script>
+      $(function() {
+          $( "#tabs" ).tabs(); /* Creating a new jquery ui tab to where there is a id called tabs*/
+      });
+
+      $(function() {
+          $( "#btn1" ).button(); /* Creating a new jquery ui button to where there is a id called btn1*/
+          $( "#btn2" ).button(); /* Creating a new jquery ui button to where there is a id called btn2*/
+      });
+  </script>
+</body>
+</html>
